@@ -17,7 +17,6 @@ li.dropdown:hover > .dropdown-menu {
 	background: rgb(240, 49, 10);
 	background: -webkit-linear-gradient(to right, #F09819, #FF512F);
 	background: linear-gradient(to right, #F09819, #FF512F);
-	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
 }
