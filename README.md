@@ -27,9 +27,13 @@ $ cd Photos $ source virtual/bin/activate Install all the necessary requirements
 
 Python3.6 -Bootstrap3 -CSS -django1.11 -HTML5
 
-Known bugs, support and Contacts
+### Known bugs, 
+
 No known bugs
-Incase of any bugs contact me at koyoomaxwel@gmail.com
+
+### support and Contacts
+
+Incase of any bugs contact me at carizeree@gmail.com
 
 ### License
 
