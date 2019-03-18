@@ -18,9 +18,10 @@ Travel Fun , Food, Musicians, University of Rwanda, Rwanda's Hospital, ....
 A user is able to view different photos that he or she is interested in,also view the details of a particular photo by clicking on read more ,search for different categories that the photos belong to,copythe photo link to share with other people and finally view photos according to the location they were taken.
 
 ### Installation steps
-git clone gallary
 
-$ cd gallery $ source virtual/bin/activate Install all the necessary requirements by running: $ pip install -r requirements.txt (Python 3). $ ./manager.py runserver
+git clone Photos
+
+$ cd Photos $ source virtual/bin/activate Install all the necessary requirements by running: $ pip install -r requirements.txt (Python 3). $ ./manager.py runserver
 
 Technologies used:
 Python3.6 -Bootstrap3 -CSS -django1.11 -HTML5
