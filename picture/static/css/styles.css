@@ -113,10 +113,7 @@ li.dropdown:hover > .dropdown-menu {
     top: 10px;
     left: 30px;
 }
-.fancybox-title {
-    padding: 0 0 10px 0;
-}
-.input-xs {
+nput-xs {
 	height: 22px!important;
 	padding: 2px 5px;
 	font-size: 12px;

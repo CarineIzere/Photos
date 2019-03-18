@@ -9,6 +9,7 @@ function CopyFunction() {
 }
 </script>
 	<div class="container-fluid">
+    <div class="jumbotron">
         <div class="row">
                 <div class="row">
                         {% if all_images%}
@@ -17,17 +18,19 @@ function CopyFunction() {
                           <h2> Found 0 images for the search term {{message}}</h2>
                         {% endif %}
                     
-                      </div>
+                </div>
         </div>
 		<div class="row">
             {% for image in all_images %}
 
 
                     <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
-                        <img src="{{image.image_path.url}}" alt="" />
+                        <img src="{{image.image_path.url}}" alt="" height="300px" width="100px"/>
                         <div class="portfolio_images_overlay text-center">
                             <h6 class="clrd-font" >{{image.image_name}}</h6>
                             <h6 class="clrd-font"><span style="color: #fff;">Location:</span>{{image.image_location}}</h6>
+                                <p style="color: #fff;"><span >Description:</span> {{image.image_description}}</p>
+                        
                             
                             <input type="text" id="imagelink" class="form-control input-sm" value="http://127.0.0.1:8000/{{image.image_path.url}}" class="hidden">
                             <button class="btn btn-primary" onclick="CopyFunction()">
@@ -37,13 +40,15 @@ function CopyFunction() {
 
                         </div>
                         
-                </div>
+                    </div>
 
                 
                         {% endfor %}
 
 
-</div>
+        </div>
+    </div>
+    </div>
 {% endblock %}
 
 
