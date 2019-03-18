@@ -14,7 +14,7 @@ li.dropdown:hover > .dropdown-menu {
     transition: 1s;
 }
 .clrd-font{
-	background: #FF512F;
+	background: rgb(240, 49, 10);
 	background: -webkit-linear-gradient(to right, #F09819, #FF512F);
 	background: linear-gradient(to right, #F09819, #FF512F);
 	-webkit-background-clip: text;
@@ -144,4 +144,7 @@ nput-xs {
 	.portfolio_images_overlay{
 		padding: 20px;
 	}
+}
+.jumbutron{
+	background-color: aquamarine;
 }

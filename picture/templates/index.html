@@ -9,7 +9,7 @@ function CopyFunction() {
 }
 </script>
 	<div class="container-fluid">
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-color: rgb(52, 139, 110);">
         <div class="row">
                 <div class="row">
                         {% if all_images%}
@@ -29,7 +29,7 @@ function CopyFunction() {
                         <div class="portfolio_images_overlay text-center">
                             <h6 class="clrd-font" >{{image.image_name}}</h6>
                             <h6 class="clrd-font"><span style="color: #fff;">Location:</span>{{image.image_location}}</h6>
-                                <p style="color: #fff;"><span >Description:</span> {{image.image_description}}</p>
+                                <p style="color: #fff;"><span style="color: rgb(240, 49, 10)">Description:</span> {{image.image_description}}</p>
                         
                             
                             <input type="text" id="imagelink" class="form-control input-sm" value="http://127.0.0.1:8000/{{image.image_path.url}}" class="hidden">
