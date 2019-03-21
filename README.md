@@ -3,7 +3,11 @@
 
 ## DESCRIPTION
 
-This project allows a user to view photos in different categories and taken in different locations and also copy the link to these images
+This project allows a user to view photos in different categories and taken in different locations and also copy the link to these images 
+
+## Live Demo
+
+https://carinegallery.herokuapp.com/
 
 ## Author
 
@@ -19,7 +23,7 @@ A user is able to view different photos that he or she is interested in,also vie
 
 ### Installation steps
 
-git clone Photos
+git clone Photos: https://github.com/CarineIzere/Photos
 
 $ cd Photos $ source virtual/bin/activate Install all the necessary requirements by running: $ pip install -r requirements.txt (Python 3). $ ./manager.py runserver
 
